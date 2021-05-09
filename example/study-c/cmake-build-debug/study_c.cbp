@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="study_c"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_c">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/study_c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 study_c"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_c/fast">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/study_c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 study_c/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="init">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/init.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 init"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="init/fast">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/init.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 init/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="index">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/index.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 index"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="index/fast">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/index.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 index/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="integer">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/integer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 integer"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="integer/fast">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/integer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 integer/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="init_defineAndAssign">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/init_defineAndAssign.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 init_defineAndAssign"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="init_defineAndAssign/fast">
+				<Option output="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug/init_defineAndAssign.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/VuePress/example/study-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 init_defineAndAssign/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/WorkSpace/VuePress/example/study-c/2.basics/2.1.data-type/2.1.1.constant/index.c">
+			<Option target="index"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/VuePress/example/study-c/2.basics/2.1.data-type/2.1.2.variable/init_defineAndAssign.c">
+			<Option target="init_defineAndAssign"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/VuePress/example/study-c/2.basics/2.1.data-type/2.1.2.variable/init_defineThenAssign.c">
+			<Option target="init"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/VuePress/example/study-c/2.basics/2.1.data-type/2.1.2.variable/integer.c">
+			<Option target="integer"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/VuePress/example/study-c/main.c">
+			<Option target="study_c"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/VuePress/example/study-c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+"D:\Work-Soft\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\WorkSpace\VuePress\example\study-c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/WorkSpace/VuePress/example/study-c/cmake-build-debug

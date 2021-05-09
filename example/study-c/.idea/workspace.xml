@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="study_c" targetName="index" />
+      <config projectName="study_c" targetName="integer" />
+      <config projectName="study_c" targetName="init_defineAndAssign" />
+      <config projectName="study_c" targetName="study_c" />
+      <config projectName="study_c" targetName="init" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69c3f21d-83ad-40f6-9e71-a91d80728987" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1sIkKvP1fCMSvSldtPyrjS0vuoD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2.basics/2.1.data-type/2.1.1.constant/index.c" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
+  </component>
+  <component name="RunManager" selected="CMake Application.init">
+    <configuration name="index" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="study_c" TARGET_NAME="index" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="study_c" RUN_TARGET_NAME="index">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="init" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="study_c" TARGET_NAME="init" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="study_c" RUN_TARGET_NAME="init">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="init_defineAndAssign" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="study_c" TARGET_NAME="init_defineAndAssign" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="study_c" RUN_TARGET_NAME="init_defineAndAssign">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="integer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="study_c" TARGET_NAME="integer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="study_c" RUN_TARGET_NAME="integer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="study_c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="study_c" TARGET_NAME="study_c" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/2.basics/2.1.data-type/2.1.1.constant/index.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.index" />
+      <item itemvalue="CMake Application.init" />
+      <item itemvalue="CMake Application.init_defineAndAssign" />
+      <item itemvalue="CMake Application.integer" />
+      <item itemvalue="CMake Application.study_c" />
+    </list>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="571" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620567721228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="571" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620567721228" />
+    <state x="851" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620567496489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="851" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620567496489" />
+    <state x="897" y="277" key="FileChooserDialogImpl" timestamp="1620600408690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="897" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620600408690" />
+    <state width="1340" height="324" key="GridCell.Tab.0.bottom" timestamp="1620602849336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620602849336" />
+    <state width="1340" height="324" key="GridCell.Tab.0.center" timestamp="1620602849335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620602849335" />
+    <state width="1340" height="324" key="GridCell.Tab.0.left" timestamp="1620602849335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620602849335" />
+    <state width="1340" height="324" key="GridCell.Tab.0.right" timestamp="1620602849336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620602849336" />
+    <state width="1340" height="324" key="GridCell.Tab.1.bottom" timestamp="1620602849336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620602849336" />
+    <state width="1340" height="324" key="GridCell.Tab.1.center" timestamp="1620602849336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620602849336" />
+    <state width="1340" height="324" key="GridCell.Tab.1.left" timestamp="1620602849336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620602849336" />
+    <state width="1340" height="324" key="GridCell.Tab.1.right" timestamp="1620602849336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620602849336" />
+    <state x="618" y="166" key="SettingsEditor" timestamp="1620600968930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="618" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1620600968930" />
+    <state x="773" y="244" key="run.anything.popup" timestamp="1620602130468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="773" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620602130468" />
+  </component>
+</project>
