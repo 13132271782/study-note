@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <!--数据库连接地址-->
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/document_activiti"/>
+        <!--数据库驱动-->
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <!--用户名-->
+        <property name="username" value="root"/>
+        <!--密码-->
+        <property name="password" value="root"/>
+    </bean>
+
+    <bean id="myProcessEngineConfigurator" class="org.note.config.MyProcessEngineConfigurator"/>
+
+    <!--流程引擎标准配置类-->
+    <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+        <!--数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--流程引擎名称-->
+        <property name="processEngineName" value="studyActiviti"/>
+        <!--注入自定义配置器-->
+        <property name="configurators">
+            <list>
+                <ref bean="myProcessEngineConfigurator"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>

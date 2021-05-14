@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="Examples" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expressionLanguage="http://www.w3.org/1999/XPath" id="m1539757531057" name="" targetNamespace="Examples" typeLanguage="http://www.w3.org/2001/XMLSchema">
+    <process id="process1" isExecutable="true">
+        <startEvent id="start1" name="开始节点"/>
+        <sequenceFlow id="flow1" name="flow1" sourceRef="start1" targetRef="userTask1"/>
+        <userTask id="userTask1" name="userTask1"/>
+        <sequenceFlow id="flow2" name="flow2" sourceRef="userTask1" targetRef="userTask2"/>
+        <userTask id="userTask2" name="userTask2"/>
+        <sequenceFlow id="flow3" name="flow3" sourceRef="userTask2" targetRef="endEvent"/>
+        <endEvent id="endEvent" name="结束节点"/>
+    </process>
+</definitions>

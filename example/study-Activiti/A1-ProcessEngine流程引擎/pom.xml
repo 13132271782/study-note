@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>note</artifactId>
+        <groupId>org.note</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>A1-ProcessEngine流程引擎</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>1.1.配置文件风格</module>
+        <module>1.1.配置文件风格</module>
+        <module>1.2.自定义适配器</module>
+        <module>1.3.监听器</module>
+        <module>1.4.创建流程引擎</module>
+    </modules>
+
+
+</project>

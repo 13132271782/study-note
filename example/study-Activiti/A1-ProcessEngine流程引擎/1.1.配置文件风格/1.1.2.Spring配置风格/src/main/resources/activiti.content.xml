@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <!--数据库连接地址-->
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/document_activiti"/>
+        <!--数据库驱动-->
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <!--用户名-->
+        <property name="username" value="root"/>
+        <!--密码-->
+        <property name="password" value="root"/>
+    </bean>
+
+    <!--事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--spring流程引擎配置类-->
+    <bean id="processEngineConfiguration" class="org.activiti.spring.SpringProcessEngineConfiguration">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="databaseSchemaUpdate" value="true"/>
+        <!--事务管理器-->
+        <property name="transactionManager" ref="transactionManager"/>
+        <property name="deploymentResources" value="classpath:/processes/simple.bpmn"/>
+    </bean>
+
+    <!--spring流程引擎-->
+    <!--spring配置风格必须配置流程引擎类，否则构造流程引擎实例对象时会发生异常-->
+    <bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
+        <property name="processEngineConfiguration" ref="processEngineConfiguration"/>
+    </bean>
+
+    <!--各种流程引擎服务类-->
+    <bean id="repositoryService" factory-bean="processEngine" factory-method="getRepositoryService"/>
+    <bean id="runtimeService" factory-bean="processEngine" factory-method="getRuntimeService"/>
+    <bean id="taskService" factory-bean="processEngine" factory-method="getTaskService"/>
+    <bean id="historyService" factory-bean="processEngine" factory-method="getHistoryService"/>
+    <bean id="managementService" factory-bean="processEngine" factory-method="getManagementService"/>
+
+</beans>
