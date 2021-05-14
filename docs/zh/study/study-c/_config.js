@@ -12,10 +12,13 @@ module.exports = {
                             {
                                 title: '2.1.数据类型',
                                 children: [
-                                    { title: '2.1.1.常量', path: '/zh/study/study-c/2.basics/2.1.data-type/2.1.1.constant' },
-                                    { title: '2.1.2.变量', path: '/zh/study/study-c/2.basics/2.1.data-type/2.1.2.variable' },
+                                    { title: '2.1.1.数据类型', path: '/zh/study/study-c/2.basics/2.1.data-type/2.1.1.data-type.md' },
+                                    { title: '2.1.2.常量', path: '/zh/study/study-c/2.basics/2.1.data-type/2.1.2.constant' },
+                                    { title: '2.1.3.变量', path: '/zh/study/study-c/2.basics/2.1.data-type/2.1.3.variable' },
                                 ]
-                            }
+                            },
+                            { title: '2.2.运算符', path: '/zh/study/study-c/2.basics/2.2.operator' },
+                            { title: '2.3.表达式', path: '/zh/study/study-c/2.basics/2.3.expression' }
                         ]
                     },
                 ]
