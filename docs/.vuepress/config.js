@@ -1,6 +1,6 @@
 const config = {
-    title: 'Bammboo Frame',
-    description: '这是一个从零搭建的后台管理框架，仅用于学习',
+    title: '学习笔记',
+    description: '学习笔记',
     base: '/',
     dest: 'dist',
     themeConfig: {
@@ -36,7 +36,11 @@ const config = {
 require('../zh/_app/_config.js').build(config);
 require('../zh/language-study/_config.js').build(config);
 require('../zh/study/study-c/_config.js').build(config);
+require('../zh/study/study-Java/_config.js').build(config);
 require('../zh/front-study/_config.js').build(config);
+require('../zh/study/study-Vue/_config.js').build(config);
+require('../zh/study/study-Vue-FreeHandCreateVueCli/_config.js').build(config);
 require('../zh/back-study/_config.js').build(config);
+require('../zh/study/study-Activiti/_config.js').build(config);
 
 module.exports = config;

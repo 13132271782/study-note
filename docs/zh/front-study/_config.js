@@ -6,6 +6,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     { title: '首页', path: "/zh/front-study/" },
+                    { title: 'Vue', path: "/zh/study/study-Vue/" },
                 ]
             },
         ];

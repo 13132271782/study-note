@@ -7,6 +7,7 @@ module.exports = {
                 children: [
                     { title: '首页', path: "/zh/language-study/" },
                     { title: 'C', path: "/zh/study/study-c/" },
+                    { title: 'Java', path: "/zh/study/study-Java/" },
                 ]
             },
         ];
