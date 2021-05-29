@@ -1,3 +1,5 @@
+const util = require('../../../.vuepress/utils/index');
+
 module.exports = {
     build(config) {
         config.themeConfig.sidebar["/zh/study/study-Vue-FreeHandCreateVueCli/"] = [
@@ -20,8 +22,9 @@ module.exports = {
         ];
     },
     crumbs: [
-        { text: '首页', link: '/' },
-        { text: '前端学习', link: '/zh/front-study/' },
+        ...util.baseCrumbs,
+        { text: '前端学习' },
+        { text: 'vue', link: "/zh/study/study-Vue/" },
         { text: '从零开始搭建vue脚手架', link: "/zh/study/study-Vue-FreeHandCreateVueCli/" },
     ]
 }

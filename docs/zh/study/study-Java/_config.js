@@ -1,3 +1,5 @@
+const util = require('../../../.vuepress/utils/index');
+
 module.exports = {
     build(config) {
         config.themeConfig.sidebar["/zh/study/study-Java/"] = [
@@ -20,8 +22,8 @@ module.exports = {
         ];
     },
     crumbs: [
-        { text: '首页', link: '/' },
-        { text: '技术语言学习', link: '/zh/language-study/' },
+        ...util.baseCrumbs,
+        { text: '技术语言学习' },
         { text: 'Java', link: '/zh/study/study-Java/' },
     ]
 }
