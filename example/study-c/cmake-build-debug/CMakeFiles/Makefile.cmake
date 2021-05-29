@@ -46,5 +46,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/init.dir/DependInfo.cmake"
   "CMakeFiles/index.dir/DependInfo.cmake"
   "CMakeFiles/integer.dir/DependInfo.cmake"
+  "CMakeFiles/demo1.dir/DependInfo.cmake"
   "CMakeFiles/init_defineAndAssign.dir/DependInfo.cmake"
+  "CMakeFiles/demo2.dir/DependInfo.cmake"
+  "CMakeFiles/demo3.dir/DependInfo.cmake"
+  "CMakeFiles/demo4.dir/DependInfo.cmake"
+  "CMakeFiles/demo5.dir/DependInfo.cmake"
+  "CMakeFiles/demo6.dir/DependInfo.cmake"
   )

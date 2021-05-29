@@ -164,6 +164,19 @@ integer\fast:
 .PHONY : integer\fast
 
 #=============================================================================
+# Target rules for targets named demo1
+
+# Build rule for target.
+demo1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) demo1
+.PHONY : demo1
+
+# fast build rule for target.
+demo1\fast:
+	$(MAKE) -f CMakeFiles\demo1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo1.dir\build
+.PHONY : demo1\fast
+
+#=============================================================================
 # Target rules for targets named init_defineAndAssign
 
 # Build rule for target.
@@ -175,6 +188,71 @@ init_defineAndAssign: cmake_check_build_system
 init_defineAndAssign\fast:
 	$(MAKE) -f CMakeFiles\init_defineAndAssign.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\init_defineAndAssign.dir\build
 .PHONY : init_defineAndAssign\fast
+
+#=============================================================================
+# Target rules for targets named demo2
+
+# Build rule for target.
+demo2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) demo2
+.PHONY : demo2
+
+# fast build rule for target.
+demo2\fast:
+	$(MAKE) -f CMakeFiles\demo2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo2.dir\build
+.PHONY : demo2\fast
+
+#=============================================================================
+# Target rules for targets named demo3
+
+# Build rule for target.
+demo3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) demo3
+.PHONY : demo3
+
+# fast build rule for target.
+demo3\fast:
+	$(MAKE) -f CMakeFiles\demo3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo3.dir\build
+.PHONY : demo3\fast
+
+#=============================================================================
+# Target rules for targets named demo4
+
+# Build rule for target.
+demo4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) demo4
+.PHONY : demo4
+
+# fast build rule for target.
+demo4\fast:
+	$(MAKE) -f CMakeFiles\demo4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo4.dir\build
+.PHONY : demo4\fast
+
+#=============================================================================
+# Target rules for targets named demo5
+
+# Build rule for target.
+demo5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) demo5
+.PHONY : demo5
+
+# fast build rule for target.
+demo5\fast:
+	$(MAKE) -f CMakeFiles\demo5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo5.dir\build
+.PHONY : demo5\fast
+
+#=============================================================================
+# Target rules for targets named demo6
+
+# Build rule for target.
+demo6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) demo6
+.PHONY : demo6
+
+# fast build rule for target.
+demo6\fast:
+	$(MAKE) -f CMakeFiles\demo6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo6.dir\build
+.PHONY : demo6\fast
 
 2.basics\2.1.data-type\2.1.1.constant\index.obj: 2.basics\2.1.data-type\2.1.1.constant\index.c.obj
 
@@ -284,6 +362,168 @@ init_defineAndAssign\fast:
 	$(MAKE) -f CMakeFiles\integer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\integer.dir\2.basics\2.1.data-type\2.1.2.variable\integer.c.s
 .PHONY : 2.basics\2.1.data-type\2.1.2.variable\integer.c.s
 
+F1.Demo\demo1.obj: F1.Demo\demo1.c.obj
+
+.PHONY : F1.Demo\demo1.obj
+
+# target to build an object file
+F1.Demo\demo1.c.obj:
+	$(MAKE) -f CMakeFiles\demo1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo1.dir\F1.Demo\demo1.c.obj
+.PHONY : F1.Demo\demo1.c.obj
+
+F1.Demo\demo1.i: F1.Demo\demo1.c.i
+
+.PHONY : F1.Demo\demo1.i
+
+# target to preprocess a source file
+F1.Demo\demo1.c.i:
+	$(MAKE) -f CMakeFiles\demo1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo1.dir\F1.Demo\demo1.c.i
+.PHONY : F1.Demo\demo1.c.i
+
+F1.Demo\demo1.s: F1.Demo\demo1.c.s
+
+.PHONY : F1.Demo\demo1.s
+
+# target to generate assembly for a file
+F1.Demo\demo1.c.s:
+	$(MAKE) -f CMakeFiles\demo1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo1.dir\F1.Demo\demo1.c.s
+.PHONY : F1.Demo\demo1.c.s
+
+F1.Demo\demo2.obj: F1.Demo\demo2.c.obj
+
+.PHONY : F1.Demo\demo2.obj
+
+# target to build an object file
+F1.Demo\demo2.c.obj:
+	$(MAKE) -f CMakeFiles\demo2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo2.dir\F1.Demo\demo2.c.obj
+.PHONY : F1.Demo\demo2.c.obj
+
+F1.Demo\demo2.i: F1.Demo\demo2.c.i
+
+.PHONY : F1.Demo\demo2.i
+
+# target to preprocess a source file
+F1.Demo\demo2.c.i:
+	$(MAKE) -f CMakeFiles\demo2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo2.dir\F1.Demo\demo2.c.i
+.PHONY : F1.Demo\demo2.c.i
+
+F1.Demo\demo2.s: F1.Demo\demo2.c.s
+
+.PHONY : F1.Demo\demo2.s
+
+# target to generate assembly for a file
+F1.Demo\demo2.c.s:
+	$(MAKE) -f CMakeFiles\demo2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo2.dir\F1.Demo\demo2.c.s
+.PHONY : F1.Demo\demo2.c.s
+
+F1.Demo\demo3.obj: F1.Demo\demo3.c.obj
+
+.PHONY : F1.Demo\demo3.obj
+
+# target to build an object file
+F1.Demo\demo3.c.obj:
+	$(MAKE) -f CMakeFiles\demo3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo3.dir\F1.Demo\demo3.c.obj
+.PHONY : F1.Demo\demo3.c.obj
+
+F1.Demo\demo3.i: F1.Demo\demo3.c.i
+
+.PHONY : F1.Demo\demo3.i
+
+# target to preprocess a source file
+F1.Demo\demo3.c.i:
+	$(MAKE) -f CMakeFiles\demo3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo3.dir\F1.Demo\demo3.c.i
+.PHONY : F1.Demo\demo3.c.i
+
+F1.Demo\demo3.s: F1.Demo\demo3.c.s
+
+.PHONY : F1.Demo\demo3.s
+
+# target to generate assembly for a file
+F1.Demo\demo3.c.s:
+	$(MAKE) -f CMakeFiles\demo3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo3.dir\F1.Demo\demo3.c.s
+.PHONY : F1.Demo\demo3.c.s
+
+F1.Demo\demo4.obj: F1.Demo\demo4.c.obj
+
+.PHONY : F1.Demo\demo4.obj
+
+# target to build an object file
+F1.Demo\demo4.c.obj:
+	$(MAKE) -f CMakeFiles\demo4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo4.dir\F1.Demo\demo4.c.obj
+.PHONY : F1.Demo\demo4.c.obj
+
+F1.Demo\demo4.i: F1.Demo\demo4.c.i
+
+.PHONY : F1.Demo\demo4.i
+
+# target to preprocess a source file
+F1.Demo\demo4.c.i:
+	$(MAKE) -f CMakeFiles\demo4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo4.dir\F1.Demo\demo4.c.i
+.PHONY : F1.Demo\demo4.c.i
+
+F1.Demo\demo4.s: F1.Demo\demo4.c.s
+
+.PHONY : F1.Demo\demo4.s
+
+# target to generate assembly for a file
+F1.Demo\demo4.c.s:
+	$(MAKE) -f CMakeFiles\demo4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo4.dir\F1.Demo\demo4.c.s
+.PHONY : F1.Demo\demo4.c.s
+
+F1.Demo\demo5.obj: F1.Demo\demo5.c.obj
+
+.PHONY : F1.Demo\demo5.obj
+
+# target to build an object file
+F1.Demo\demo5.c.obj:
+	$(MAKE) -f CMakeFiles\demo5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo5.dir\F1.Demo\demo5.c.obj
+.PHONY : F1.Demo\demo5.c.obj
+
+F1.Demo\demo5.i: F1.Demo\demo5.c.i
+
+.PHONY : F1.Demo\demo5.i
+
+# target to preprocess a source file
+F1.Demo\demo5.c.i:
+	$(MAKE) -f CMakeFiles\demo5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo5.dir\F1.Demo\demo5.c.i
+.PHONY : F1.Demo\demo5.c.i
+
+F1.Demo\demo5.s: F1.Demo\demo5.c.s
+
+.PHONY : F1.Demo\demo5.s
+
+# target to generate assembly for a file
+F1.Demo\demo5.c.s:
+	$(MAKE) -f CMakeFiles\demo5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo5.dir\F1.Demo\demo5.c.s
+.PHONY : F1.Demo\demo5.c.s
+
+F1.Demo\demo6.obj: F1.Demo\demo6.c.obj
+
+.PHONY : F1.Demo\demo6.obj
+
+# target to build an object file
+F1.Demo\demo6.c.obj:
+	$(MAKE) -f CMakeFiles\demo6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo6.dir\F1.Demo\demo6.c.obj
+.PHONY : F1.Demo\demo6.c.obj
+
+F1.Demo\demo6.i: F1.Demo\demo6.c.i
+
+.PHONY : F1.Demo\demo6.i
+
+# target to preprocess a source file
+F1.Demo\demo6.c.i:
+	$(MAKE) -f CMakeFiles\demo6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo6.dir\F1.Demo\demo6.c.i
+.PHONY : F1.Demo\demo6.c.i
+
+F1.Demo\demo6.s: F1.Demo\demo6.c.s
+
+.PHONY : F1.Demo\demo6.s
+
+# target to generate assembly for a file
+F1.Demo\demo6.c.s:
+	$(MAKE) -f CMakeFiles\demo6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo6.dir\F1.Demo\demo6.c.s
+.PHONY : F1.Demo\demo6.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -317,13 +557,19 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
 	@echo ... study_c
 	@echo ... init
 	@echo ... index
-	@echo ... rebuild_cache
 	@echo ... integer
+	@echo ... demo1
 	@echo ... init_defineAndAssign
+	@echo ... demo2
+	@echo ... demo3
+	@echo ... demo4
+	@echo ... demo5
+	@echo ... demo6
+	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... 2.basics/2.1.data-type/2.1.1.constant/index.obj
 	@echo ... 2.basics/2.1.data-type/2.1.1.constant/index.i
 	@echo ... 2.basics/2.1.data-type/2.1.1.constant/index.s
@@ -336,6 +582,24 @@ help:
 	@echo ... 2.basics/2.1.data-type/2.1.2.variable/integer.obj
 	@echo ... 2.basics/2.1.data-type/2.1.2.variable/integer.i
 	@echo ... 2.basics/2.1.data-type/2.1.2.variable/integer.s
+	@echo ... F1.Demo/demo1.obj
+	@echo ... F1.Demo/demo1.i
+	@echo ... F1.Demo/demo1.s
+	@echo ... F1.Demo/demo2.obj
+	@echo ... F1.Demo/demo2.i
+	@echo ... F1.Demo/demo2.s
+	@echo ... F1.Demo/demo3.obj
+	@echo ... F1.Demo/demo3.i
+	@echo ... F1.Demo/demo3.s
+	@echo ... F1.Demo/demo4.obj
+	@echo ... F1.Demo/demo4.i
+	@echo ... F1.Demo/demo4.s
+	@echo ... F1.Demo/demo5.obj
+	@echo ... F1.Demo/demo5.i
+	@echo ... F1.Demo/demo5.s
+	@echo ... F1.Demo/demo6.obj
+	@echo ... F1.Demo/demo6.i
+	@echo ... F1.Demo/demo6.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

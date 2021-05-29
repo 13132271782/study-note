@@ -58,7 +58,13 @@ all: CMakeFiles\study_c.dir\all
 all: CMakeFiles\init.dir\all
 all: CMakeFiles\index.dir\all
 all: CMakeFiles\integer.dir\all
+all: CMakeFiles\demo1.dir\all
 all: CMakeFiles\init_defineAndAssign.dir\all
+all: CMakeFiles\demo2.dir\all
+all: CMakeFiles\demo3.dir\all
+all: CMakeFiles\demo4.dir\all
+all: CMakeFiles\demo5.dir\all
+all: CMakeFiles\demo6.dir\all
 
 .PHONY : all
 
@@ -72,7 +78,13 @@ clean: CMakeFiles\study_c.dir\clean
 clean: CMakeFiles\init.dir\clean
 clean: CMakeFiles\index.dir\clean
 clean: CMakeFiles\integer.dir\clean
+clean: CMakeFiles\demo1.dir\clean
 clean: CMakeFiles\init_defineAndAssign.dir\clean
+clean: CMakeFiles\demo2.dir\clean
+clean: CMakeFiles\demo3.dir\clean
+clean: CMakeFiles\demo4.dir\clean
+clean: CMakeFiles\demo5.dir\clean
+clean: CMakeFiles\demo6.dir\clean
 
 .PHONY : clean
 
@@ -83,7 +95,7 @@ clean: CMakeFiles\init_defineAndAssign.dir\clean
 CMakeFiles\study_c.dir\all:
 	$(MAKE) -f CMakeFiles\study_c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\study_c.dir\depend
 	$(MAKE) -f CMakeFiles\study_c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\study_c.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target study_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target study_c"
 .PHONY : CMakeFiles\study_c.dir\all
 
 # Build rule for subdir invocation for target.
@@ -110,7 +122,7 @@ CMakeFiles\study_c.dir\clean:
 CMakeFiles\init.dir\all:
 	$(MAKE) -f CMakeFiles\init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\init.dir\depend
 	$(MAKE) -f CMakeFiles\init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\init.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target init"
 .PHONY : CMakeFiles\init.dir\all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +149,7 @@ CMakeFiles\init.dir\clean:
 CMakeFiles\index.dir\all:
 	$(MAKE) -f CMakeFiles\index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\index.dir\depend
 	$(MAKE) -f CMakeFiles\index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\index.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target index"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target index"
 .PHONY : CMakeFiles\index.dir\all
 
 # Build rule for subdir invocation for target.
@@ -164,7 +176,7 @@ CMakeFiles\index.dir\clean:
 CMakeFiles\integer.dir\all:
 	$(MAKE) -f CMakeFiles\integer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\integer.dir\depend
 	$(MAKE) -f CMakeFiles\integer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\integer.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target integer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target integer"
 .PHONY : CMakeFiles\integer.dir\all
 
 # Build rule for subdir invocation for target.
@@ -185,13 +197,40 @@ CMakeFiles\integer.dir\clean:
 .PHONY : CMakeFiles\integer.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/demo1.dir
+
+# All Build rule for target.
+CMakeFiles\demo1.dir\all:
+	$(MAKE) -f CMakeFiles\demo1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo1.dir\depend
+	$(MAKE) -f CMakeFiles\demo1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo1.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target demo1"
+.PHONY : CMakeFiles\demo1.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\demo1.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\demo1.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\demo1.dir\rule
+
+# Convenience name for target.
+demo1: CMakeFiles\demo1.dir\rule
+
+.PHONY : demo1
+
+# clean rule for target.
+CMakeFiles\demo1.dir\clean:
+	$(MAKE) -f CMakeFiles\demo1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo1.dir\clean
+.PHONY : CMakeFiles\demo1.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/init_defineAndAssign.dir
 
 # All Build rule for target.
 CMakeFiles\init_defineAndAssign.dir\all:
 	$(MAKE) -f CMakeFiles\init_defineAndAssign.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\init_defineAndAssign.dir\depend
 	$(MAKE) -f CMakeFiles\init_defineAndAssign.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\init_defineAndAssign.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target init_defineAndAssign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target init_defineAndAssign"
 .PHONY : CMakeFiles\init_defineAndAssign.dir\all
 
 # Build rule for subdir invocation for target.
@@ -210,6 +249,141 @@ init_defineAndAssign: CMakeFiles\init_defineAndAssign.dir\rule
 CMakeFiles\init_defineAndAssign.dir\clean:
 	$(MAKE) -f CMakeFiles\init_defineAndAssign.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\init_defineAndAssign.dir\clean
 .PHONY : CMakeFiles\init_defineAndAssign.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo2.dir
+
+# All Build rule for target.
+CMakeFiles\demo2.dir\all:
+	$(MAKE) -f CMakeFiles\demo2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo2.dir\depend
+	$(MAKE) -f CMakeFiles\demo2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo2.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target demo2"
+.PHONY : CMakeFiles\demo2.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\demo2.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\demo2.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\demo2.dir\rule
+
+# Convenience name for target.
+demo2: CMakeFiles\demo2.dir\rule
+
+.PHONY : demo2
+
+# clean rule for target.
+CMakeFiles\demo2.dir\clean:
+	$(MAKE) -f CMakeFiles\demo2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo2.dir\clean
+.PHONY : CMakeFiles\demo2.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo3.dir
+
+# All Build rule for target.
+CMakeFiles\demo3.dir\all:
+	$(MAKE) -f CMakeFiles\demo3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo3.dir\depend
+	$(MAKE) -f CMakeFiles\demo3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo3.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target demo3"
+.PHONY : CMakeFiles\demo3.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\demo3.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\demo3.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\demo3.dir\rule
+
+# Convenience name for target.
+demo3: CMakeFiles\demo3.dir\rule
+
+.PHONY : demo3
+
+# clean rule for target.
+CMakeFiles\demo3.dir\clean:
+	$(MAKE) -f CMakeFiles\demo3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo3.dir\clean
+.PHONY : CMakeFiles\demo3.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo4.dir
+
+# All Build rule for target.
+CMakeFiles\demo4.dir\all:
+	$(MAKE) -f CMakeFiles\demo4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo4.dir\depend
+	$(MAKE) -f CMakeFiles\demo4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo4.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target demo4"
+.PHONY : CMakeFiles\demo4.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\demo4.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\demo4.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\demo4.dir\rule
+
+# Convenience name for target.
+demo4: CMakeFiles\demo4.dir\rule
+
+.PHONY : demo4
+
+# clean rule for target.
+CMakeFiles\demo4.dir\clean:
+	$(MAKE) -f CMakeFiles\demo4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo4.dir\clean
+.PHONY : CMakeFiles\demo4.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo5.dir
+
+# All Build rule for target.
+CMakeFiles\demo5.dir\all:
+	$(MAKE) -f CMakeFiles\demo5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo5.dir\depend
+	$(MAKE) -f CMakeFiles\demo5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo5.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target demo5"
+.PHONY : CMakeFiles\demo5.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\demo5.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\demo5.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\demo5.dir\rule
+
+# Convenience name for target.
+demo5: CMakeFiles\demo5.dir\rule
+
+.PHONY : demo5
+
+# clean rule for target.
+CMakeFiles\demo5.dir\clean:
+	$(MAKE) -f CMakeFiles\demo5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo5.dir\clean
+.PHONY : CMakeFiles\demo5.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo6.dir
+
+# All Build rule for target.
+CMakeFiles\demo6.dir\all:
+	$(MAKE) -f CMakeFiles\demo6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo6.dir\depend
+	$(MAKE) -f CMakeFiles\demo6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo6.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target demo6"
+.PHONY : CMakeFiles\demo6.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\demo6.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\demo6.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\VuePress\example\study-c\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\demo6.dir\rule
+
+# Convenience name for target.
+demo6: CMakeFiles\demo6.dir\rule
+
+.PHONY : demo6
+
+# clean rule for target.
+CMakeFiles\demo6.dir\clean:
+	$(MAKE) -f CMakeFiles\demo6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\demo6.dir\clean
+.PHONY : CMakeFiles\demo6.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
