@@ -6,7 +6,7 @@ const config = {
     themeConfig: {
         search: true,//搜索
         searchMaxSuggestions: 10,
-        nav: [{}],
+        nav: [],
         // 左侧导航
         sidebar: {},
         // 最后更新时间
@@ -35,5 +35,6 @@ require('../zh/study/study-Vue/_config.js').build(config);
 require('../zh/study/study-Vue-FreeHandCreateVueCli/_config.js').build(config);
 
 require('../zh/study/study-Activiti/_config.js').build(config);
+require('../zh/study/study-Netty/_config.js').build(config);
 
 module.exports = config;

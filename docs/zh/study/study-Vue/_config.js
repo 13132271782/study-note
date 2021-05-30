@@ -15,7 +15,7 @@ module.exports = {
     },
     crumbs: [
         ...util.baseCrumbs,
-        { text: '前端学习' },
+        { text: '前端学习', link: '#' },
         { text: 'Vue', link: "/zh/study/study-Vue/" },
     ]
 }

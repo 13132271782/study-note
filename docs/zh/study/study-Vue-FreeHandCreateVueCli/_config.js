@@ -23,7 +23,7 @@ module.exports = {
     },
     crumbs: [
         ...util.baseCrumbs,
-        { text: '前端学习' },
+        { text: '前端学习', link: '#' },
         { text: 'vue', link: "/zh/study/study-Vue/" },
         { text: '从零开始搭建vue脚手架', link: "/zh/study/study-Vue-FreeHandCreateVueCli/" },
     ]

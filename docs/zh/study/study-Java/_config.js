@@ -23,7 +23,7 @@ module.exports = {
     },
     crumbs: [
         ...util.baseCrumbs,
-        { text: '技术语言学习' },
+        { text: '技术语言学习', link: '#' },
         { text: 'Java', link: '/zh/study/study-Java/' },
     ]
 }
